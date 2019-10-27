@@ -14,8 +14,8 @@ Drop TABLE "Employees";
 CREATE TABLE "Employees" (
     "emp_no" int   NOT NULL,
     "birth_date" date   NOT NULL,
-    "first_name" varchar(20)   NOT NULL,
-    "last_name" varchar(20)   NOT NULL,
+    "first_name" varchar(30)   NOT NULL,
+    "last_name" varchar(30)   NOT NULL,
     "gender" char   NOT NULL,
     "hire_date" date   NOT NULL,
     CONSTRAINT "pk_Employees" PRIMARY KEY (
@@ -24,7 +24,7 @@ CREATE TABLE "Employees" (
 );
 
 CREATE TABLE "Dept_Manager" (
-    "dept_no" varchar(20)   NOT NULL,
+    "dept_no" varchar(30)   NOT NULL,
     "emp_no" int   NOT NULL,
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL
@@ -32,7 +32,7 @@ CREATE TABLE "Dept_Manager" (
 
 CREATE TABLE "Dept_Emp" (
     "emp_no" int   NOT NULL,
-    "dept_no" varchar(20)   NOT NULL,
+    "dept_no" varchar(30)   NOT NULL,
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL
 );
@@ -52,8 +52,8 @@ CREATE TABLE "Salaries" (
 );
 
 CREATE TABLE "Departments" (
-    "dept_no" varchar(20)   NOT NULL,
-    "dept_name" varchar(20)   NOT NULL,
+    "dept_no" varchar(30)   NOT NULL,
+    "dept_name" varchar(30)   NOT NULL,
     CONSTRAINT "pk_Departments" PRIMARY KEY (
         "dept_no"
      )

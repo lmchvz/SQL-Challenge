@@ -2,14 +2,14 @@ Employees
 -
 emp_no int pk
 birth_date date
-first_name varchar
-last_name varchar
-gender varchar
+first_name varchar(30)
+last_name varchar(30)
+gender char
 hire_date date
 
 Dept_Manager
 -
-dept_no int FK >- Departments.dept_no
+dept_no varchar(30) FK >- Departments.dept_no
 emp_no int FK >- Employees.emp_no
 from_date date
 to_date date
@@ -24,18 +24,18 @@ to_date date
 Titles
 -
 emp_no int FK >- Employees.emp_no
-title int 
+title varchar(30)
 from_date date
 to_date date
 
 Salaries 
 - 
 emp_no int FK >- Employees.emp_no
-salary int 
+salary money 
 from_date date
 to_date date
 
 Departments
 -
-dept_no int PK
-dept_name varchar
+dept_no varchar(30) PK
+dept_name varchar(30)
