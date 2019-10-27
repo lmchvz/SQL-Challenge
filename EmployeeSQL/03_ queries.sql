@@ -74,5 +74,3 @@ ORDER BY frequency DESC;
 -- You look down at your badge to see that your employee ID number is 499942.
 SELECT * FROM "Employees" 
 WHERE emp_no = '499942'
-
-("SELECT t.title, round(AVG(s.salary), 2) AS avg_salary FROM 'Titles' AS t INNER JOIN 'Salaries' AS s ON (t.emp_no = s.emp_no) GROUP BY t.title
