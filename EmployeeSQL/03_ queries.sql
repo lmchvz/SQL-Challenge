@@ -68,3 +68,9 @@ SELECT last_name, COUNT(*) AS frequency
 FROM "Employees"
 GROUP BY last_name
 ORDER BY frequency DESC;
+
+-- Epilogue
+-- On your way out of the office, you hear the words, "Search your ID number." 
+-- You look down at your badge to see that your employee ID number is 499942.
+SELECT * FROM "Employees" 
+WHERE emp_no = '499942'

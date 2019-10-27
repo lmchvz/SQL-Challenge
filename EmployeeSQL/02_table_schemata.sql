@@ -1,9 +1,10 @@
 ﻿DROP TABLE "Dept_Manager";
 DROP TABLE "Dept_Emp";
-Drop TABLE "Employees";
 DROP TABLE "Salaries";
 DROP TABLE "Titles";
 DROP TABLE "Departments"
+Drop TABLE "Employees";
+
 
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/7FEshF
@@ -45,7 +46,7 @@ CREATE TABLE "Titles" (
 
 CREATE TABLE "Salaries" (
     "emp_no" int   NOT NULL,
-    "salary" int   NOT NULL,
+    "salary" money   NOT NULL,
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL
 );
