@@ -29,7 +29,7 @@ Import each CSV file into the corresponding SQL table.
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-#### Bonus 
+#### 4. Bonus 
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
 1. Import the SQL database into Pandas.
