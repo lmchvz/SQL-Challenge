@@ -15,4 +15,9 @@ Use the data to create a table schema for each of the six CSV files; Import each
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-
+#### Bonus: 
+After examining the data, there is suspicion that the dataset is fake. In the Bonus.ipynb file the following steps were taken to generate a visualization of the data to confirm hunch:
+- Import the SQL database into Pandas. 
+- from sqlalchemy import create_engine
+- Create a histogram to visualize the most common salary ranges for employees.
+- Create a bar chart of average salary by title.
