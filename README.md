@@ -1,6 +1,6 @@
 ## SQL Challenge - Employee Database
 
-The objective of this research project is to analyze the corporation’s employees from the 1980s and 1990s. The employee data is saved in¬¬ [6 separate CSV files](EmployeeSQL/data)
+The objective of this research project is to analyze the corporation’s employees from the 1980s and 1990s. The employee data is saved in [6 separate CSV files](EmployeeSQL/data)
 
 After reviewing the data, first I used the Data Modeling Tool QuickDBD to create a diagram to plan my SQL Tables
 The objective of this challenge is to design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data by perforing the following steps:
