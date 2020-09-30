@@ -1,4 +1,4 @@
-## SQL Challenge - Employee Database
+## SQL Analysis - Employee Database
 
 The objective of this research project is to analyze the corporation’s employees from the 1980s and 1990s. The employee data is saved in [6 separate CSV files](EmployeeSQL/data)
 
