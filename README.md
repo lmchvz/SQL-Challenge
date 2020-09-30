@@ -1,5 +1,6 @@
 ## SQL Analysis - Employee Database
-The objective of this research project is to analyze the corporation’s employees from the 1980s and 1990s. The employee data is saved in [6 separate CSV files]( EmployeeSQL/data)
+The objective of this research project is to analyze the corporation’s employees from the 1980s and 1990s. 
+The employee data is saved in [6 separate CSV files]( EmployeeSQL/data)
 
 After reviewing the data, first I used the **Data Modeling** Tool QuickDBD to create a [Entity Relationship Diagram](EmployeeSQL/01_ERD.png) / [ERD text](EmployeeSQL/01_ERD.txt) to help plan my SQL Tables. 
 
