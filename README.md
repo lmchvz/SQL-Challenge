@@ -19,7 +19,7 @@ I then preformed **Data Analysis** by creating these [queries](EmployeeSQL/03_qu
 *Bonus*
 After examining the data, there is suspicion that the dataset is fake. In the file [Bonus.ipynb]( EmployeeSQL/ 04_Bonus.ipynb)
 the following steps were taken to generate a visualization of the data to confirm hunch:
-1.	Import the SQL database into Pandas.
-2.	from sqlalchemy import create_engine
-3.	Create a histogram to visualize the most common salary ranges for employees.
-4.	Create a bar chart of average salary by title.
+-	Import the SQL database into Pandas.
+-	from sqlalchemy import create_engine
+-	Create a histogram to visualize the most common salary ranges for employees.
+-	Create a bar chart of average salary by title.
